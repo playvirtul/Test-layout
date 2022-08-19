@@ -1,0 +1,139 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(243, 243, 243);
+}
+
+ul {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header-nav {
+    width: 100%;
+}
+
+.header-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.header-item {
+    width: 300px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: azure;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: aquamarine;
+    height: 100%;
+    width: 250px;
+    padding-top: 20px;
+}
+
+.main-list {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-item {
+    width: 80%;
+    height: 50px;
+    margin-bottom: 50px;
+    background-color: azure;
+}
+
+.comments {
+    height: 100%;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.comments-title {
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comments-list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.comments-item {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.posts {
+    width: auto;
+    margin: auto;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    border-radius: 10px;
+    margin: 70px 0 0 70px;
+    background-color: white;
+    padding: 15px;
+}
+
+.post-picture {
+    object-fit: cover;
+    width: 500px;
+    margin-top: 30px;
+}
