@@ -135,5 +135,6 @@ p {
 .post-picture {
     object-fit: cover;
     width: 500px;
+    height: 300px;
     margin-top: 30px;
 }
